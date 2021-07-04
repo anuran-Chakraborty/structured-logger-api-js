@@ -1,6 +1,6 @@
 const StructuredLogger = require("../src/StructuredLogger");
 
-Logger = new StructuredLogger("http://localhost:3000", "Logger2", "60e08f81dccd1a306439f81f")
+Logger = new StructuredLogger("http://localhost:3000", "Logger2", "60e1794b2f34063efc14ed9b")
 
 for (let i = 0; i < 10; i++) {
     Logger.log("ERROR", "Sample test", `Logging ${i}`);
